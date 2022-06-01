@@ -19,3 +19,17 @@ import matplotlib.pyplot as plt
 
 fields = gpd.read_file('Data/AgrarantragBB/daten/129730080162_teilflaechen.shp')
 fields.plot(cmap = 'jet', column = 'CODE') #plotting fields colored by the code of field use
+
+fields.plot(cmap = 'jet', column = 'FLAECHE')
+
+fields.crs #show coordinate system
+
+#variable for global coordinate system:
+epsg = '25833'
+
+fields = fields.to_crs(epsg=epsg)
+
+
+#fields without fill, only edgecolor
+
+fields.plot(edgecolor = 'k', facecolor = 'none')

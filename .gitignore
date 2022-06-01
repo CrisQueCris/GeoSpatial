@@ -16,3 +16,6 @@ Data/AgrarantragBB/daten/129730080162_hinweispunkte.dbf
 Data/AgrarantragBB/daten/129730080162_1_flaechenuebersicht.xlsx
 Data/AgrarantragBB/daten/129730080162.nn.xml
 Data/AgrarantragBB/daten.zip
+copernicus_config.py
+Data/Copernicus/S2A_MSIL2A_20220518T100601_N0400_R022_T33UUV_20220518T162816.zip
+Data/Copernicus/S2B_MSIL2A_20220523T100559_N0400_R022_T33UVV_20220523T115247.zip
